@@ -12,11 +12,18 @@ public class Enemy : MonoBehaviour
 
     ScoreBoard scoreBoard;
 
-    void Start() 
+    void Start()
     {
         scoreBoard = FindObjectOfType<ScoreBoard>();
+        AddRigibody();
     }
-    
+
+    void AddRigibody()
+    {
+        Rigidbody rigidBody = gameObject.AddComponent<Rigidbody>();
+        rigidBody.useGravity = false;
+    }
+
     void OnParticleCollision(GameObject other)
     {
         ProcessHit();
