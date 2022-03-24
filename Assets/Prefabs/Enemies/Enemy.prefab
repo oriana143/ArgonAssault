@@ -141,9 +141,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathVFX: {fileID: 6067173427986223939, guid: 1e9937015f67931469f317c456353421, type: 3}
   hitVFX: {fileID: 6067173427986223939, guid: d1a04b3abafc3144ea20684432b03093, type: 3}
-  parent: {fileID: 0}
   scorePerHit: 5
-  hitPoints: 8
+  hitPoints: 1
 --- !u!1 &1008337886849442673
 GameObject:
   m_ObjectHideFlags: 0
