@@ -408,6 +408,7 @@ GameObject:
   - component: {fileID: 9117024075383754629}
   - component: {fileID: 6440950515562855247}
   - component: {fileID: 5595657276153757890}
+  - component: {fileID: 622350753}
   m_Layer: 0
   m_Name: Enemy1
   m_TagString: Enemy
@@ -424,7 +425,7 @@ Transform:
   m_GameObject: {fileID: 4783427735132412570}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 196.81801, y: 40.03665, z: 127.93602}
-  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
+  m_LocalScale: {x: 1.5000001, y: 1.5, z: 1.5000001}
   m_Children:
   - {fileID: 2012366611491966452}
   m_Father: {fileID: 0}
@@ -493,9 +494,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathVFX: {fileID: 6067173427986223939, guid: 1e9937015f67931469f317c456353421, type: 3}
   hitVFX: {fileID: 6067173427986223939, guid: d1a04b3abafc3144ea20684432b03093, type: 3}
-  parent: {fileID: 0}
   scorePerHit: 1
   hitPoints: 7
+--- !u!95 &622350753
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4783427735132412570}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &5018017156169861951
 GameObject:
   m_ObjectHideFlags: 0
